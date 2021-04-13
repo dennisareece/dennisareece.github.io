@@ -5,7 +5,49 @@
                <title>Page Title</title>
 </head>
 <body>    
-    <h1>Dennis Reece</h1>
+    <nav>
+    {    
+    top: 0px;}
+
+nav ul {    
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;}
+
+nav>ul li { 
+    position: relative;
+    text-align: center;
+    list-style-type: none;
+    float: left;}
+
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 15px 15px 15px;
+    width: 150px; 
+    margin: 10px;}
+
+nav a:link{ 
+    background-color: lightslategray;}
+
+nav a:hover, nav a:focus {
+    background-color: cadetblue;}
+
+nav a:active{
+    background-color: aquamarine;}
+
+nav ul>li ul { 
+    position: absolute;
+    top: 100%; 
+    display: none;}
+
+nav ul ul li { 
+    float:none;}
+
+nav>ul>li:hover>ul{ 
+    display: block;}
+</nav>
+     <h1>Dennis Reece</h1>
 <footer>
   <p>Posted by: Dennis Reece</p>
   <p>Contact information: <a href="mailto:darvgk@mail.missouri.edu">
