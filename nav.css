@@ -1,13 +1,13 @@
-/* Title: Nav.css file 
-Author:  Dennis Reece
-
+  
 nav {    
     top: 0px;}
 
 nav ul {    
     list-style-type: none;
     margin: 0; 
-    padding: 0;}
+    padding: 0;
+    border: 0;
+    }
 
 nav>ul li { 
     position: relative;
@@ -34,41 +34,11 @@ nav ul>li ul {
 nav ul ul li { 
     float:none;}
 
-nav>ul>li:hover>ul{ 
-    display: block;}
-
 nav ul, nav:active ul {
         display: none;
         position: absolute;
         padding: 20px 20px 20px 0px;
         top: 20px;}
     
- nav:hover ul {
-        display: block;}
-    
- nav:hover #mobileHide {
-        display: none;}
-    
- nav li {
-        text-align: center;
-        padding: 0;margin: 0;}
-    
- nav>ul li {  
-        text-align: left; 
-        font-weight: bold;
-        color: darkmagenta; 
-        float: left;}
-    
-nav a { 
-        text-decoration: none;
-        display: inline-block;
-        border-top: none; 
-        border-bottom: none; 
-        padding: 15px 0px 15px 35px;
-        width: 240px; 
-        margin-bottom: 2px;}
-    
-nav ul li ul {
-        display:none;} -- this should all be under your media query as it is re-organizing your navigation to be vertical instead of horizonta*/
-
+  
  
