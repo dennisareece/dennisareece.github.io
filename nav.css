@@ -27,7 +27,6 @@ nav>ul li {
 nav a {
     text-decoration: none;
     display: inline-block;
-    border: 3px dotted magenta;
     padding: 15px 15px 15px 15px;
     width: 150px;  
     margin: 2px;
