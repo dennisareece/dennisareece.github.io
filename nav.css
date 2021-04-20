@@ -21,7 +21,7 @@ nav>ul li {
     position: relative;  
     text-align: center;
     font-weight: bold;
-    color: darkmagenta;
+    color: black;
     float: left;
 }
 nav a {
@@ -90,7 +90,7 @@ nav>ul>li:hover>ul{
     nav>ul li {
     text-align: left;
     font-weight: bold;
-    color: darkmagenta;
+    color: black;
     float: left;
 }
 nav a {
