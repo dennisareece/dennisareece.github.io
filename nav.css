@@ -3,105 +3,111 @@ body {
     padding: 0;
     font-family: arial;
 }
-.active a:link { 
-    background-color: beige;
+.active a:link {
+    background-color: linen;
+}
+#hamburger {
+    display: none;
 }
 
-#hamburger {   
-    display: none;}
-
-nav {    
-    top: 0px;   }
-
-nav ul {    
+nav {
+    top: 0px;   
+}
+nav ul {
     list-style-type: none;
-    margin: 0; 
-    padding: 0;}
-
-nav>ul li { 
-    position: relative;
+    margin: 0;
+    padding: 0;
+}
+nav>ul li {
+    position: relative;  
     text-align: center;
-    float: left;}
-
+    font-weight: bold;
+    color: darkgray;
+    float: left;
+}
 nav a {
     text-decoration: none;
     display: inline-block;
     padding: 15px 15px 15px 15px;
-    width: 110px; 
-    margin: 10px;}
-
-nav a:link{ 
-    background-color: beige;}
-
+    width: 150px;   
+    margin: 2px;
+}
+ 
+nav a:link{
+    background-color: white;
+}
 nav a:hover, nav a:focus {
-    background-color: 
-    cornsilk;}
-
+    background-color: linen;
+}
 nav a:active{
-    background-color: aquamarine;}
-
-nav ul>li ul { 
+    background-color: aquamarine;
+}
+ 
+nav ul>li ul {
     position: absolute;
-    top: 100%; 
-    display: none;}
+    top: 100%;
+    display: none;
+}
+nav ul ul li {
+    float:none;
+}
 
-nav ul ul li { 
-    float:none;}
+nav>ul>li:hover>ul{
+    display: block;
+}
+@media only screen and (max-width: 640px) {
+	
+    header {
+		position: relative;
+        height: 40px;
+        display: block;
+        background-color: cadetblue;
+        width: 100%;        
 
-nav>ul>li:hover>ul{ 
-    display: block;
-   
-}@media only screen and (max-width: 640px) {
-    
-header {
-    position: relative;
-    height: 40px; 
-    display: block;
-    background-color: cadetblue;
-    width: 100%;
-    }
-    
-    #hamburger {
-        display: inline-block;
+	}
+	#hamburger {
+		display: inline-block;
         padding-left: 20px;
         width: 26px;
-        float: left; 
-        font-size: 2em;}
+        float: left;
+        font-size: 2em;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		position: absolute;
+		padding: 20px 20px 20px 0px;
+		top: 20px;
+			}
+	nav:hover ul {
+		display: block;
+	}
+    	nav:hover #mobileHide {
+		display: none;
+	}
+	nav li {
+		text-align: center;
+		padding: 0;
+		margin: 0;
+	}
+    nav>ul li {
+    text-align: left;
+    font-weight: bold;
+    color: darkmagenta;
+    float: left;
+}
+nav a {
+    text-decoration: none;
+    display: inline-block;
+    border-top: none;
+    border-bottom: none;
+    padding: 15px 0px 15px 35px;
+    width: 240px;
+    margin-bottom: 2px;
+}
+nav .lastMobile {
+    }
     
-    nav ul, nav:active ul {
-        display: none;
-        position: absolute;
-        padding: 20px 20px 20px 0px;
-        top: 20px;}
-    
-    nav:hover ul {
-        display: block;}
-    
-    nav:hover #mobileHide {
-        display: none;}
-    
-    nav li {
-        text-align: center;
-        padding: 0;margin: 0;}
-    
-    nav>ul li {  
-        text-align: left; 
-        font-weight: bold;
-        color: darkmagenta; 
-        float: left;}
-    
-    nav a { 
-        text-decoration: none;
-        display: inline-block;
-        border-top: none; 
-        border-bottom: none; 
-        padding: 15px 0px 15px 35px;
-        width: 240px; 
-        margin-bottom: 2px;}
-    
-    nav .lastMobile {
-        border-bottom: 3px dotted magenta;}
-    
-    nav ul li ul {
-        display:none;    }
+nav ul li ul {
+        display:none;
+    }
 }
