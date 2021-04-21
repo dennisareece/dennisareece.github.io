@@ -429,7 +429,7 @@ tr:nth-child(odd) {
     }
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width:500px) {
     
     nav {
         z-index: 25;
