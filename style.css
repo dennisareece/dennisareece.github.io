@@ -188,7 +188,7 @@ blockquote {
     font-size: 11pt;
     padding-left: 10px;
     margin-left: 5px;
-    margin-right: 1000px;
+    margin-right: 800px;
 }
 
 form {
@@ -433,10 +433,11 @@ tr:nth-child(odd) {
 }
 
 @media only screen and (max-width:1250px) {
-
-tr {
-    font-size: 14pt;
+    
+    tr{
+        font-size: 14pt;
 }
+
     table#table1 {
         width: 100%;
         margin-left: 25%;
@@ -533,7 +534,13 @@ tr {
 }
 
   /* Toggle Show/Hide Menu */
-  #hamitems { display: none;}
-  #hamnav input:checked ~ #hamitems { display: block;}
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; 
+}
 
- 
+/* [DOES NOT MATTER] */
+  html, body
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}
