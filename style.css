@@ -104,7 +104,7 @@ p + p {
 .previous { color: brown;}
 
 li {
-  list-style-type: circle;}
+  list-style-type: box;}
 
 a:link { 
     color: black;}
@@ -330,7 +330,6 @@ nav {
 }
 
 footer {
-    background-image: url(images/footer%20background%205.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -375,7 +374,7 @@ img {
 }
 
 table#table1 {
-	Width: 200px;
+	Width: 400px;
     margin-left: 2px;
 }
 
@@ -403,7 +402,7 @@ th {
 }
 
 table#table1 {
-  border-spacing: 5px;
+  border-spacing: 10px;
     
 }
 
