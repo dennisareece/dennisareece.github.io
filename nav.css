@@ -169,12 +169,12 @@ nav ul, nav:active ul {
         list-style: none;
         position: relative;
 }
-     
+ 
  nav a {
         width: 100%;
 } 
     
 nav:hover ul {
-        display: block;
-}
+        display: block;}
+
  
