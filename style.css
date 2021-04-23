@@ -473,6 +473,7 @@ tr:nth-child(odd) {
   /* Optional */
   position: sticky;
   top: 0;
+  padding-left: 40px;        
 }
 
 /* Hide Hamburger */
@@ -482,7 +483,7 @@ tr:nth-child(odd) {
 #hamitems { display: flex; }
 #hamitems a {
   width: 20%; /* 100% / 5 tabs = 20% */
-  padding: 100px;
+  padding: 10px;
   color: white;
   text-decoration: none;
   text-align: center;
