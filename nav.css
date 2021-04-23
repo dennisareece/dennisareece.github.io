@@ -1,11 +1,9 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: arial;
-}
+    font-family: arial;}
 .active a:link { 
-    background-color: beige;
-}
+    background-color: beige;}
 
 #hamburger {   
     display: none;}
@@ -54,7 +52,7 @@ nav>ul>li:hover>ul{
     display: block;}
 
 @media only screen and (max-width: 640px) {
-    
+
 header {
     position: relative;
     height: 40px; 
@@ -107,7 +105,7 @@ header {
     
     nav ul li ul {
         display:none;}
-
+}
     @media screen and (max-width: 640px) {
 
     header {
@@ -164,5 +162,16 @@ nav ul, nav:active ul {
     
 nav:hover ul {
         display: block;} 
-    }
- 
+}
+ .thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;} 
+   
+img:hover {
+transform: scale(1.3);}
+    
