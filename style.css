@@ -319,7 +319,7 @@ nav {
     text-align: center;}
 
 footer {
-    background-image: url(images/footer%20background%205.jpeg);
+    background-image: (footer%20background%205.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
