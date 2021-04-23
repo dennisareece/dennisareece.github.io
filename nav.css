@@ -22,7 +22,8 @@ nav>ul li {
     position: relative;
     text-align: center;
     list-style-type: none;
-    float: left;}
+    float: left;
+    padding-left: 20px;}
 
 nav a {
     text-decoration: none;
