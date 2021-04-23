@@ -319,7 +319,8 @@ nav {
     text-align: center;}
 
 footer {
-    background-image: url("https://github.com/dennisareece/dennisareece.github.io/blob/main/footerbackground.jpg?raw=true");
+    background-color: lightblue;
+    background-image: url("footerbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
