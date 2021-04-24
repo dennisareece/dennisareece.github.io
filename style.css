@@ -121,7 +121,7 @@ blockquote {
   background-color: lightblue;
   padding-left: 22px;
   margin-left: 28px;
-  margin-right: 1226px;}
+  margin-right: 800px;}
 
 .iframe-container {
     padding-top: 18px;
@@ -133,7 +133,7 @@ blockquote {
     background-color: lightblue;
     padding-left: 22px;
     margin-left: 28px;
-    margin-right: 1226px;
+    margin-right: 800px;
     text-decoration: none;
 }
 
@@ -373,11 +373,11 @@ table#table1 {
   border-spacing: 5px;}
 
 tr:nth-child(even) {
-	background: grey;
+	background: cadetblue;
     font-size: 14pt;}
 
 tr:nth-child(odd) {
-	background: lightgrey;
+	background: cadetblue;
     font-size: 14pt;}
 
 @media only screen and (max-width:1250px) {
