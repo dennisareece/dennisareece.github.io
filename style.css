@@ -172,14 +172,14 @@ blockquote {
     font-size: 11pt;
     padding-left: 10px;
     margin-left: 5px;
-    margin-right: 1000px;
+    margin-right: 850px;
     }
 
 form {
     font-size: 11pt;
     padding-left: 10px;
     margin-left: 5px;
-    margin-right: 1000px;
+    margin-right: 850px;
     }
 
 input {
@@ -320,7 +320,7 @@ nav {
 
 footer {
     background-color: lightgrey;
-    background-image: ("https://github.com/dennisareece/dennisareece.github.io/blob/main/footerbackground.jpg?raw=true");
+    background-image: url ("https://github.com/dennisareece/dennisareece.github.io/blob/main/footerbackground.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
@@ -347,10 +347,6 @@ footer img {
  
 img {
     filter: grayscale(0.5);}
-
-.icon:hover {
-    background: cadetblue;
-    color: black;}
 
 table#table1 {
 	Width: 200px;
