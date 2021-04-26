@@ -316,7 +316,7 @@ th, td {
 caption {
   text-align: center;
   font-size: 14pt;
-   color: darkred;}
+  color: darkred;}
 
 th {
   text-align: center;
@@ -326,11 +326,11 @@ table#table1 {
   border-spacing: 5px;}
 
 tr:nth-child(even) {
-	background: cadetblue;
+	background: lightgrey;
     font-size: 14pt;}
 
 tr:nth-child(odd) {
-	background: cadetblue;
+	background: darkgrey;
     font-size: 14pt;}
 
 @media only screen and (max-width:1250px) {
