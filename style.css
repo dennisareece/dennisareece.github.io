@@ -301,6 +301,49 @@ h6 {
     padding-top: 120px;
     color: darkred;}
 
+table#table1 {
+	Width: 200px;
+    margin-left: 2px;}
+
+table#table1, th, td {
+  border: 1px solid darkred;
+  border-collapse: collapse;
+  font-size: 14pt;}
+
+th, td {
+  padding: 5px;}
+
+caption {
+  text-align: center;
+  font-size: 14pt;
+   color: darkred;}
+
+th {
+  text-align: center;
+  font-size: 14pt;}
+
+table#table1 {
+  border-spacing: 5px;}
+
+tr:nth-child(even) {
+	background: cadetblue;
+    font-size: 14pt;}
+
+tr:nth-child(odd) {
+	background: cadetblue;
+    font-size: 14pt;}
+
+@media only screen and (max-width:1250px) {
+    
+    tr{
+        font-size: 14pt;}
+
+ table#table1 {
+        width: 100%;
+        margin-left: 25%;
+        margin-right: 25%;}
+}
+
 footer {
     border-top: 1px solid black;    
     padding-top: 10px;
@@ -345,38 +388,6 @@ footer img {
  
 img {
     filter: grayscale(0.5);}
-
-table#table1 {
-	Width: 200px;
-    margin-left: 2px;}
-
-table#table1, th, td {
-  border: 1px solid darkred;
-  border-collapse: collapse;
-  font-size: 14pt;}
-
-th, td {
-  padding: 5px;}
-
-caption {
-  text-align: center;
-  font-size: 14pt;
-   color: darkred;}
-
-th {
-  text-align: center;
-  font-size: 14pt;}
-
-table#table1 {
-  border-spacing: 5px;}
-
-tr:nth-child(even) {
-	background: cadetblue;
-    font-size: 14pt;}
-
-tr:nth-child(odd) {
-	background: cadetblue;
-    font-size: 14pt;}
 
 @media only screen and (max-width:1250px) {
     
