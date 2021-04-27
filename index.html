@@ -20,6 +20,27 @@
    <label for="hamburger">&#9776;</label>
   <input type="checkbox" id="hamburger"/>
 </nav>
+    
+ <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active">Logo</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="#index">Home</a>
+    <a href="#resume">Resume</a>
+    <a href="#background">Background</a>
+    <a href="#project">Project</a>  
+    <a href="#reflection">Reflection</a>   
+     <a href="#contact">Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
   <nav id="nav_menu">
   <ul>       
         <li><a href="index.html">Home</a></li>     
