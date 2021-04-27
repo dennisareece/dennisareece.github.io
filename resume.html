@@ -6,6 +6,10 @@
        <title>Resume Page</title>
        <link rel="stylesheet" href="style.css">
        <link rel="stylesheet" href="nav.css">
+      <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <body> 
 <header>
@@ -18,6 +22,24 @@
    <label for="hamburger">&#9776;</label>
   <input type="checkbox" id="hamburger"/>
 </nav>
+
+    <!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="home" class="active">Menu</a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="index">Home</a>
+    <a href="resume">Resume</a>
+    <a href="background">Background</a>
+    <a href="project">Project</a>  
+    <a href="reflection">Reflection</a>   
+     <a href="contact">Contact</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
   <nav id="nav_menu">
   <ul>       
         <li><a href="index.html">Home</a></li>     
@@ -34,7 +56,6 @@
         <li><a href="contact.html">Contact</a></li>            
  </ul>
  </nav>
- 
   
         <h1>Resume</h1>  
 
@@ -54,6 +75,7 @@
 </div> 
     
 </nav> 
+ 
 <footer>
     
 Proprietary information of Dennis Reece. Do not distribute or reproduce without express permission of Dennis Reece. Email darvgk@mail.missouri.edu
