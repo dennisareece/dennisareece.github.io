@@ -46,7 +46,7 @@ Body {
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #4CAF50;
+  background-color: cadetblue;
   color: white;
 }
 
