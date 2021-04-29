@@ -52,6 +52,19 @@ nav ul ul li {
 nav>ul>li:hover>ul{ 
     display: block;}
 
+.thumbnail:hover {
+    position:relative;
+    height:auto;
+    display:block;
+    z-index:999;} 
+   
+img:hover {
+    position:relative;
+    transform: scale(.5);
+    display:block;
+    z-index:999;}
+   
+
 @media only screen and (max-width: 640px) {
 
 header {
@@ -164,20 +177,5 @@ nav ul, nav:active ul {
 nav:hover ul {
         display: block;} 
 }
- .thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:500px;
-    height:auto;
-    display:block;
-    z-index:999;} 
-   
-img:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    transform: scale(.5);
-    display:block;
-    z-index:999;}
+  
     
