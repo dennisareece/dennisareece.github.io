@@ -104,34 +104,23 @@ left-column {
     float: left;
     background: linen;}
 
-#apps {
+.apps {
     float: right;} 
 
-#apps p {
+.apps p {
     margin-top: 100%;}
 
-#apps p {
+.apps p {
     display: inline;}
 
-#apps p:hover {
+.apps p:hover {
     background: cadetblue;
     color: black;}
 
-#apps {
+.apps {
     width:50px;
     height:50px;
 }
-
-#appsbig {
-    position: absolute;
-    width:0px;
-    z-index: 10;
-}
-
-#apps:hover + .appsbig {
-    width:100px;
-}
-
 
 header {  
     position: relative;
@@ -452,14 +441,6 @@ footer li:last-child {
 footer img {
     display: block;
     margin: 0;}
-
-.icon {
-    float: right;
-    display: inline;
-    clear: both;
-    width: 40px;
-    height: 40px;
-    position: absolute;}
 
 .thumbnail {
     width:40px;
