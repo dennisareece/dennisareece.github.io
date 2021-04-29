@@ -314,7 +314,7 @@ p {
     text-align: left;
     color: black;
     clear: left;
-    text-indent: 5px}
+    padding-left: 10px;}
 
 ul {
     list-style-type: square;}
