@@ -119,8 +119,8 @@ left-column {
 .apps p:hover {
     background: cadetblue;
     color: black;
-    width:65px
-    height:65px}
+    width:65px;
+    height:65px;}
 
 header {  
     position: relative;
