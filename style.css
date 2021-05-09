@@ -441,6 +441,7 @@ footer li:last-child {
     border-right: none;}
 
 footer img {
+    float: left;
     display: block;
     margin: 0;}
 
@@ -449,7 +450,6 @@ footer img {
     width:40px;
     height:40px;
 }
-
 .thumbnail:hover  {
     width:60px;
 }
