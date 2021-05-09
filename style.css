@@ -391,18 +391,19 @@ tr:nth-child(odd) {
 
 .thumbnail {
     object-position: Left;
-    width:50px;
+    width:40px;
     height:50px;
 }
 
 .thumbnailbig {
+    object-position: right;
     position: absolute;
     width:0px;
     z-index: 10;
 }
 
 .thumbnail:hover + .thumbnailbig {
-    width:60px;
+    width:50px;
 }
 
 @media only screen and (max-width:1250px) {
