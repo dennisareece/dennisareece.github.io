@@ -390,18 +390,13 @@ tr:nth-child(odd) {
     font-size: 14pt;}
 
 .thumbnail {
+    float: left;
     width:40px;
-    height:50px;
+    height:40px;
 }
 
-.thumbnailbig {
-    position: absolute;
-    width:0px;
-    z-index: 10;
-}
-
-.thumbnail:hover + .thumbnailbig {
-    width:50px;
+.thumbnail:hover   {
+    width:60px;
 }
 
 @media only screen and (max-width:1250px) {
@@ -417,8 +412,8 @@ tr:nth-child(odd) {
 
 footer {
     border-top: 1px solid black;    
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     font-size: 12pt;
     font-style: italic;
     font-weight: 100;
@@ -434,7 +429,7 @@ nav {
 
 footer {
     width: 100%;
-    height: 200px;
+    height: 100px;
     background-image: url(https://github.com/dennisareece/dennisareece.github.io/blob/main/footerbackground.jpg?raw=true);
     background-size: 100% 100%;
 }
@@ -450,12 +445,13 @@ footer img {
     margin: 0;}
 
 .thumbnail {
+    float: left;
     width:40px;
     height:40px;
 }
 
 .thumbnail:hover  {
-    width:50px;
+    width:60px;
 }
  
 img {
