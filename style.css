@@ -306,7 +306,6 @@ message {
 h1 {
     text-align: center;
     font-family: "Natalisa Regular Demo", serif;
-    text-shadow: 3px 3px 5px;
     font-size: 28pt;
     font-style:normal;
     font-weight: bold;
