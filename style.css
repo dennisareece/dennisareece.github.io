@@ -308,7 +308,7 @@ h1 {
     font-family: "Natalisa Regular Demo", serif;
     text-shadow: 3px 3px 5px;
     font-size: 28pt;
-    font-style: italic;
+    font-style:normal;
     font-weight: bold;
     color: darkred;
     margin-top: 80px;
