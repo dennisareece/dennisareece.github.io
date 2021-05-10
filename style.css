@@ -156,7 +156,7 @@ left-column {
 
 header {  
     position: relative;
-    height: 55px;
+    height: 50px;
     display: block;
     background-color: cadetblue;
     width: 100%;}
@@ -446,7 +446,7 @@ footer {
     border-top: 1px solid black;    
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 12pt;
+    font-size: 10pt;
     font-style: italic;
     font-weight: 100;
     text-align: center;
